@@ -112,10 +112,10 @@ jobs:
 #################################/
 ## Deploy Azure Infrastructure.                                               
 #################################/
-      - name:                     Deploy Azure Resources
-        run:                      python src/pkg/dbx_utils/utils_create_azure_resources.py
-        env:
-          ENVIRONMENT:            ${{ inputs.ENVIRONMENT }}
+      # - name:                     Deploy Azure Resources
+      #   run:                      python src/pkg/dbx_utils/utils_create_azure_resources.py
+      #   env:
+      #     ENVIRONMENT:            ${{ inputs.ENVIRONMENT }}
 
 
 
