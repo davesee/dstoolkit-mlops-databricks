@@ -1,3 +1,4 @@
+#!/bin/bash
 SECRET_NAME="dbkstoken"
 # Check if secret exists
 

@@ -1,3 +1,4 @@
+#!/bin/bash
 REPOS_WITH_MANAGEMENT_PERMISSIONS=$(curl -X GET \
                 -H "Authorization: Bearer $DATABRICKS_AAD_TOKEN" \
                 -H "X-Databricks-Azure-SP-Management-Token: $DATABRICKS_MANAGEMENT_TOKEN" \

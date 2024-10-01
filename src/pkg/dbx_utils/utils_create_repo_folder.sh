@@ -1,3 +1,4 @@
+#!/bin/bash
 echo "Ingest JSON File"
 JSON=$( jq '.' infrastructure/databricks/databricks_configs/$ENVIRONMENT/repos.json)
 

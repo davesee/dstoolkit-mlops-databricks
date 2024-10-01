@@ -1,3 +1,4 @@
+#!/bin/bash
 set -e
 
 DATABRICKS_AAD_TOKEN=$( \
